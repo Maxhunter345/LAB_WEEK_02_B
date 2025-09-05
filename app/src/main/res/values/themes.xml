@@ -1,12 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Base.Theme.LAB_WEEK_02_B" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Sesuaikan warna jika mau -->
     </style>
 
     <style name="Theme.LAB_WEEK_02_B" parent="Base.Theme.LAB_WEEK_02_B" />
 
-    <!-- Custom styles -->
     <style name="text_input" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_margin">8dp</item>
     </style>

@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
     private val submitButton: Button
         get() = findViewById(R.id.submit_button)
 
-    // Activity Result API
     private val resultLauncher = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { result ->

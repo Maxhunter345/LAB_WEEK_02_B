@@ -13,7 +13,8 @@
         android:theme="@style/Theme.LAB_WEEK_02_B">
         <activity
             android:name=".ResultActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:launchMode="singleTop" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
